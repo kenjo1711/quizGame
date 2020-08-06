@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>Quiz Game For Beginners</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="bg-dark py-5">
+      <h1 class="text-center text-white">Quiz Time!</h1>
+    </main>
+
+    <section>
+    <!-- HTML Questions -->
+    <h1 class="bg-light py-3 text-center text-primary">Questions about HTML</h1>
+
+    <!-- Question 1 -->
+
+    <div id="q1">
+      <h2 class="text-primary bg-light py-3">Question 1:</h2>
+      <h3 class="mx-4">What is the full form of HTML?</h3>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-1">Hypertext Markup Language</button>
+      <br>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-2">Harvard's Tested Markup Language</button>
+      <br>
+    </div>
+
+    <!-- Question 2 -->
+
+    <div id="q2">
+      <h2 class="text-primary bg-light py-3">Question 2:</h2>
+      <h3 class="mx-4">Who invented HTML?</h3>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-3">Tim Berners-Lee</button>
+      <br>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-4">Mark Mitt Lang</button>
+      <br>
+    </div>
+
+    <!-- Question 3 -->
+
+    <div id="q3">
+      <h2 class="text-primary bg-light py-3">Question 3:</h2>
+      <h3 class="mx-4">In what year was HTML Invented?</h3>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-5">1987</button>
+      <br>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-6">1990</button>
+      <br>
+    </div>
+
+    <!-- Question 4 -->
+
+    <div id="q4">
+      <h2 class="text-primary bg-light py-3">Question 4:</h2>
+      <h3 class="mx-4">What is HTML used for?</h3>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-7">To create the interactive elements of the website</button>
+      <br>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-8">To create the backbone of the website</button>
+      <br>
+    </div>
+
+    <!-- Question 5 -->
+
+    <div id="q5">
+      <h2 class="text-primary bg-light py-3">Question 5:</h2>
+      <h3 class="mx-4">What are the 4 basic HTML tags?</h3>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-9">&lthtml&gt, &ltstyle&gt, &ltscript&gt, &ltinput&gt</button>
+      <br>
+      <button class="btn btn-outline-primary py-2 my-2 btn-lg mx-4" id="btn-10">&lthtml&gt, &lthead&gt, &lttitle&gt, &ltbody&gt</button>
+      <br>
+    </div>
+
+    <!-- JavaScript Questions  -->
+    <h1 class="bg-light py-3 text-center text-danger">Questions about JavaScript</h1>
+
+    <div id="q6">
+      <h2 class="text-danger bg-light py-3">Question 1:</h2>
+      <h3 class="mx-4">What is JavaScript?</h3>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-11">A Software Platform</button>
+      <br>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-12">A Programming Language</button>
+      <br>
+    </div>
+
+    <div id="q7">
+      <h2 class="text-danger bg-light py-3">Question 2:</h2>
+      <h3 class="mx-4">Who designed JavaScript?</h3>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-13">Brendan Fraser</button>
+      <br>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-14">Brendan Eich</button>
+      <br>
+    </div>
+
+    <div id="q8">
+      <h2 class="text-danger bg-light py-3">Question 3:</h2>
+      <h3 class="mx-4">When was JavaScript first appeared?</h3>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-15">August 22, 1960</button>
+      <br>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-16">December 4, 1995</button>
+      <br>
+    </div>
+
+    <div id="q9">
+      <h2 class="text-danger bg-light py-3">Question 4:</h2>
+      <h3 class="mx-4">Which of these is a Pop up box in JavaScript?</h3>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-17">popup()</button>
+      <br>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-18">alert()</button>
+      <br>
+    </div>
+
+    <div id="q10">
+      <h2 class="text-danger bg-light py-3">Question 5:</h2>
+      <h3 class="mx-4">What are ("var, let & const") called in JavaScript?</h3>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-19">Scripters</button>
+      <br>
+      <button class="btn btn-outline-danger py-2 my-2 btn-lg mx-4" id="btn-20">Variables</button>
+      <br>
+    </div>
+  </section>
+
+<div class="bg-dark py-4 d-flex">
+  <button class="btn btn-outline-warning py-2 my-2 btn-lg mx-4" id="results">Results</button>
+  <h3 id="results-msg" class="m-3 text-white"></h3>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
